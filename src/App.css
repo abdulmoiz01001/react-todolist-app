@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+body{
+  width: 100%;
+}
+#btn-1{
+  cursor: pointer;
+  /* width: 6px; */
+  height: 30px;
+}
+
+#btn-2{
+  cursor: pointer;
+}
+
+.mainBox{
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(183, 165, 165); */
+}
+
+.rederData{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: 10px auto;
+}
+
+
+@media (max-width:700px) {
+ 
+  .mainBox{
+    flex-direction: column;
+    height: 200px;
+    font-size: 12px;
+    
+  }
+  .rederData{
+    width: 98%;
+    font-size: 12px;
+    padding: 8px 2px;
+  }
+  
+}
+
+@media (max-width:520px) {
+  .rederData{
+    font-size: 9px;
+  }
+}
